@@ -45,7 +45,14 @@ public class Alumno {
     public void imprimeDetalles() {
         System.out.println(nombre + " (" + numeroMatricula + ") - " + edad + " años");
     }
-
+    
+    /**
+     * Obtener los detalles del alumno
+     */
+    public String getDetalles() {
+        return nombre + " (" + numeroMatricula + ") - " + edad + " años";
+    }
+    
     /**
      * Devuelve el nombre de usuario que el alumno debe configurar
      * en su cuenta de Github en formato de 7 caracateres
